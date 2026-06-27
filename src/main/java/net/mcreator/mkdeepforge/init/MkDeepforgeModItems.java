@@ -4,6 +4,7 @@
 package net.mcreator.mkdeepforge.init;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
@@ -11,15 +12,18 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.mkdeepforge.item.UraniumIngotItem;
 import net.mcreator.mkdeepforge.MkDeepforgeMod;
 
 import java.util.function.Function;
 
 public class MkDeepforgeModItems {
-	public static Item SPERM_BLOCK;
+	public static Item URANIUM_INGOT;
+	public static Item DEESPSLATE_URANIUM_ORE;
 
 	public static void load() {
-		SPERM_BLOCK = block(MkDeepforgeModBlocks.SPERM_BLOCK, "sperm_block");
+		URANIUM_INGOT = register("uranium_ingot", UraniumIngotItem::new);
+		DEESPSLATE_URANIUM_ORE = block(MkDeepforgeModBlocks.DEESPSLATE_URANIUM_ORE, "deespslate_uranium_ore", new Item.Properties().rarity(Rarity.UNCOMMON));
 	}
 
 	// Start of user code block custom items

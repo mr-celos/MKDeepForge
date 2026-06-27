@@ -1,30 +1,54 @@
 {
   "mod_elements": [
     {
-      "name": "SpermBlock",
+      "name": "UraniumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkdeepforge/item/UraniumIngotItem.java",
+          "src/main/resources/assets/mk_deepforge/items/uranium_ingot.json",
+          "src/main/resources/assets/mk_deepforge/models/item/uranium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOre",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sperm_block",
+      "registry_name": "deespslate_uranium_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mkdeepforge/block/SpermBlockBlock.java",
-          "src/main/resources/assets/mk_deepforge/models/item/sperm_block.json",
-          "src/main/resources/assets/mk_deepforge/blockstates/sperm_block.json",
-          "src/main/resources/data/mk_deepforge/loot_table/blocks/sperm_block.json",
-          "src/main/resources/assets/mk_deepforge/models/block/sperm_block.json",
-          "src/main/resources/assets/mk_deepforge/items/sperm_block.json"
+          "src/main/resources/data/mk_deepforge/loot_table/blocks/deespslate_uranium_ore.json",
+          "src/main/resources/data/mk_deepforge/worldgen/placed_feature/deespslate_uranium_ore.json",
+          "src/main/resources/assets/mk_deepforge/models/item/deespslate_uranium_ore.json",
+          "src/main/resources/assets/mk_deepforge/items/deespslate_uranium_ore.json",
+          "src/main/resources/data/mk_deepforge/worldgen/configured_feature/deespslate_uranium_ore.json",
+          "src/main/java/net/mcreator/mkdeepforge/block/UraniumOreBlock.java",
+          "src/main/resources/assets/mk_deepforge/blockstates/deespslate_uranium_ore.json",
+          "src/main/resources/assets/mk_deepforge/models/block/deespslate_uranium_ore.json"
         ]
       }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:UraniumOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:UraniumOre"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.mk_deepforge.sperm_block": "Sperm Block"
+      "item.mk_deepforge.uranium_ingot": "Uranium",
+      "item.mk_deepforge.deespslate_uranium_ore": "Uranium Ore"
     }
   },
   "metadata": {
@@ -34,6 +58,7 @@
       "src/main/java/net/mcreator/mkdeepforge/mixin/RepairItemRecipeMixin.java",
       "src/main/java/net/mcreator/mkdeepforge/init/MkDeepforgeModItems.java",
       "src/main/java/net/mcreator/mkdeepforge/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/mkdeepforge/init/MkDeepforgeModFeatures.java",
       "src/main/resources/fabric.mod.json",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/mkdeepforge/mixin/ItemStackMixin.java",
@@ -43,6 +68,7 @@
       "src/main/java/net/mcreator/mkdeepforge/mixin/BlockItemMixin.java",
       "src/main/java/net/mcreator/mkdeepforge/event/ItemEvents.java",
       "src/main/resources/mk_deepforge.mixins.json",
+      "src/main/java/net/mcreator/mkdeepforge/init/MkDeepforgeModTabs.java",
       "src/main/java/net/mcreator/mkdeepforge/mixin/PlayerMixin.java",
       "src/main/java/net/mcreator/mkdeepforge/event/MiscEvents.java",
       "src/main/java/net/mcreator/mkdeepforge/event/LivingEntityEvents.java",

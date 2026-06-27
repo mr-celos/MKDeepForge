@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "mk_deepforge:item/sperm_block"
+    "model": "mk_deepforge:item/uranium_ingot"
   }
 }

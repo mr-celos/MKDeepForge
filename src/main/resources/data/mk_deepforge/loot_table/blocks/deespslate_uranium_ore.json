@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "mk_deepforge:blocks/sperm_block",
+  "random_sequence": "mk_deepforge:blocks/deespslate_uranium_ore",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mk_deepforge:sperm_block"
+          "name": "mk_deepforge:uranium_ingot"
         }
       ]
     }

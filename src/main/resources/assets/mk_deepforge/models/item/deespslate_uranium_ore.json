@@ -1,5 +1,5 @@
 {
-  "parent": "mk_deepforge:block/sperm_block",
+  "parent": "mk_deepforge:block/deespslate_uranium_ore",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -10,16 +10,16 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.mkdeepforge.block.SpermBlockBlock;
+import net.mcreator.mkdeepforge.block.UraniumOreBlock;
 import net.mcreator.mkdeepforge.MkDeepforgeMod;
 
 import java.util.function.Function;
 
 public class MkDeepforgeModBlocks {
-	public static Block SPERM_BLOCK;
+	public static Block DEESPSLATE_URANIUM_ORE;
 
 	public static void load() {
-		SPERM_BLOCK = register("sperm_block", SpermBlockBlock::new);
+		DEESPSLATE_URANIUM_ORE = register("deespslate_uranium_ore", UraniumOreBlock::new);
 	}
 
 	// Start of user code block custom blocks
