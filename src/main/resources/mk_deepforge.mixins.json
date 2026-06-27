@@ -4,6 +4,8 @@
   "compatibilityLevel": "JAVA_21",
   "refmap": "mk_deepforge.refmap.json",
   "mixins": [
+    "RepairItemRecipeMixin",
+    "ServerPlayerMixin",
     "LivingEntityMixin",
     "PlayerMixin",
     "ItemStackMixin",

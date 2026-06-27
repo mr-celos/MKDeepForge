@@ -8,6 +8,9 @@ import org.apache.logging.log4j.LogManager;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.util.Tuple;
 
+import net.mcreator.mkdeepforge.init.MkDeepforgeModItems;
+import net.mcreator.mkdeepforge.init.MkDeepforgeModBlocks;
+
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.api.ModInitializer;
@@ -31,6 +34,8 @@ public class MkDeepforgeMod implements ModInitializer {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
 		LOGGER.info("Initializing MkDeepforgeMod");
+		MkDeepforgeModBlocks.load();
+		MkDeepforgeModItems.load();
 		tick();
 		// Start of user code block mod init
 		// End of user code block mod init

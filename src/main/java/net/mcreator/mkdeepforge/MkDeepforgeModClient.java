@@ -1,5 +1,7 @@
 package net.mcreator.mkdeepforge;
 
+import net.mcreator.mkdeepforge.init.MkDeepforgeModBlocksRenderers;
+
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
@@ -10,6 +12,7 @@ public class MkDeepforgeModClient implements ClientModInitializer {
 	public void onInitializeClient() {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
+		MkDeepforgeModBlocksRenderers.clientLoad();
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

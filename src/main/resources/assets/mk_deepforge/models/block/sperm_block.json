@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/dried_ghast_hydration_3_south",
+    "up": "minecraft:block/dried_ghast_hydration_3_east",
+    "north": "minecraft:block/dried_ghast_hydration_3_north",
+    "east": "minecraft:block/dried_ghast_hydration_3_north",
+    "south": "minecraft:block/dried_ghast_hydration_3_north",
+    "west": "minecraft:block/dried_ghast_hydration_3_north",
+    "particle": "minecraft:block/dried_ghast_hydration_3_south"
+  },
+  "render_type": "solid"
+}

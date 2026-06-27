@@ -1,14 +1,39 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "SpermBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sperm_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mkdeepforge/block/SpermBlockBlock.java",
+          "src/main/resources/assets/mk_deepforge/models/item/sperm_block.json",
+          "src/main/resources/assets/mk_deepforge/blockstates/sperm_block.json",
+          "src/main/resources/data/mk_deepforge/loot_table/blocks/sperm_block.json",
+          "src/main/resources/assets/mk_deepforge/models/block/sperm_block.json",
+          "src/main/resources/assets/mk_deepforge/items/sperm_block.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.mk_deepforge.sperm_block": "Sperm Block"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/mkdeepforge/init/MkDeepforgeModBlocks.java",
+      "src/main/java/net/mcreator/mkdeepforge/init/MkDeepforgeModBlocksRenderers.java",
+      "src/main/java/net/mcreator/mkdeepforge/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/mkdeepforge/init/MkDeepforgeModItems.java",
+      "src/main/java/net/mcreator/mkdeepforge/mixin/ServerPlayerMixin.java",
       "src/main/resources/fabric.mod.json",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/mkdeepforge/mixin/ItemStackMixin.java",
