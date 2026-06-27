@@ -11,6 +11,7 @@ import net.minecraft.util.Tuple;
 import net.mcreator.mkdeepforge.init.MkDeepforgeModTabs;
 import net.mcreator.mkdeepforge.init.MkDeepforgeModItems;
 import net.mcreator.mkdeepforge.init.MkDeepforgeModFeatures;
+import net.mcreator.mkdeepforge.init.MkDeepforgeModCommands;
 import net.mcreator.mkdeepforge.init.MkDeepforgeModBlocks;
 
 import net.fabricmc.loader.api.FabricLoader;
@@ -40,6 +41,7 @@ public class MkDeepforgeMod implements ModInitializer {
 		MkDeepforgeModFeatures.load();
 		MkDeepforgeModBlocks.load();
 		MkDeepforgeModItems.load();
+		MkDeepforgeModCommands.load();
 		tick();
 		// Start of user code block mod init
 		// End of user code block mod init
