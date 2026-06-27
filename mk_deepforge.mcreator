@@ -12,7 +12,8 @@
           "src/main/resources/assets/mk_deepforge/items/uranium_ingot.json",
           "src/main/resources/assets/mk_deepforge/models/item/uranium_ingot.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "UraniumOre",
@@ -31,7 +32,8 @@
           "src/main/resources/assets/mk_deepforge/models/block/uranium_ore.json",
           "src/main/resources/data/mk_deepforge/worldgen/configured_feature/uranium_ore.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "DeepslateUraniumOre",
@@ -50,7 +52,8 @@
           "src/main/resources/assets/mk_deepforge/blockstates/deepslate_uranium_ore.json",
           "src/main/resources/data/mk_deepforge/loot_table/blocks/deepslate_uranium_ore.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -104,7 +107,16 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "mk_deepforge",
