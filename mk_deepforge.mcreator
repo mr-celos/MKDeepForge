@@ -1,0 +1,52 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/fabric.mod.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/mkdeepforge/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/mkdeepforge/MkDeepforgeMod.java",
+      "src/main/java/net/mcreator/mkdeepforge/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/mkdeepforge/MkDeepforgeModClient.java",
+      "src/main/java/net/mcreator/mkdeepforge/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/mkdeepforge/event/ItemEvents.java",
+      "src/main/resources/mk_deepforge.mixins.json",
+      "src/main/java/net/mcreator/mkdeepforge/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/mkdeepforge/event/MiscEvents.java",
+      "src/main/java/net/mcreator/mkdeepforge/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/mkdeepforge/mixin/LivingEntityMixin.java",
+      "src/main/resources/META-INF/mk_deepforge.accesswidener",
+      "src/main/java/net/mcreator/mkdeepforge/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/mkdeepforge/event/BlockEvents.java",
+      "src/main/java/net/mcreator/mkdeepforge/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/mkdeepforge/mixin/ExperienceOrbMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mk_deepforge",
+    "modName": "MK DeepForge",
+    "version": "0.1.0",
+    "description": "Structures, Ores \u0026 More",
+    "author": "\u003cmr/celos\u003e \u0026 KauanH",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "modElementsPackage": "net.mcreator.mkdeepforge"
+  },
+  "mcreatorVersion": 202500345720
+}

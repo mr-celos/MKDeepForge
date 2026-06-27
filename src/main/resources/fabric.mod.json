@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "mk_deepforge",
+  "version": "0.1.0",
+  "name": "MK DeepForge",
+  "description": "Structures, Ores & More",
+  "authors": [
+    "<mr/celos> & KauanH"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.mkdeepforge.MkDeepforgeMod"
+    ],
+    "client": [
+      "net.mcreator.mkdeepforge.MkDeepforgeModClient"
+    ]
+  },
+  "mixins": [
+    "mk_deepforge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
