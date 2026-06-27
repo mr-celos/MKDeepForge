@@ -13,8 +13,8 @@ import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
 
 import java.util.function.Predicate;
 
-public class UraniumOreBlock extends Block {
-	public UraniumOreBlock(BlockBehaviour.Properties properties) {
+public class DeepslateUraniumOreBlock extends Block {
+	public DeepslateUraniumOreBlock(BlockBehaviour.Properties properties) {
 		super(properties.strength(5f, 4f).requiresCorrectToolForDrops().instrument(NoteBlockInstrument.BASEDRUM));
 	}
 

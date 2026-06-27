@@ -19,11 +19,13 @@ import java.util.function.Function;
 
 public class MkDeepforgeModItems {
 	public static Item URANIUM_INGOT;
-	public static Item DEESPSLATE_URANIUM_ORE;
+	public static Item URANIUM_ORE;
+	public static Item DEEPSLATE_URANIUM_ORE;
 
 	public static void load() {
 		URANIUM_INGOT = register("uranium_ingot", UraniumIngotItem::new);
-		DEESPSLATE_URANIUM_ORE = block(MkDeepforgeModBlocks.DEESPSLATE_URANIUM_ORE, "deespslate_uranium_ore", new Item.Properties().rarity(Rarity.UNCOMMON));
+		URANIUM_ORE = block(MkDeepforgeModBlocks.URANIUM_ORE, "uranium_ore", new Item.Properties().rarity(Rarity.UNCOMMON));
+		DEEPSLATE_URANIUM_ORE = block(MkDeepforgeModBlocks.DEEPSLATE_URANIUM_ORE, "deepslate_uranium_ore", new Item.Properties().rarity(Rarity.UNCOMMON));
 	}
 
 	// Start of user code block custom items

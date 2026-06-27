@@ -19,17 +19,36 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "deespslate_uranium_ore",
+      "registry_name": "uranium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/mk_deepforge/loot_table/blocks/deespslate_uranium_ore.json",
-          "src/main/resources/data/mk_deepforge/worldgen/placed_feature/deespslate_uranium_ore.json",
-          "src/main/resources/assets/mk_deepforge/models/item/deespslate_uranium_ore.json",
-          "src/main/resources/assets/mk_deepforge/items/deespslate_uranium_ore.json",
-          "src/main/resources/data/mk_deepforge/worldgen/configured_feature/deespslate_uranium_ore.json",
+          "src/main/resources/assets/mk_deepforge/models/item/uranium_ore.json",
+          "src/main/resources/data/mk_deepforge/worldgen/placed_feature/uranium_ore.json",
+          "src/main/resources/data/mk_deepforge/loot_table/blocks/uranium_ore.json",
           "src/main/java/net/mcreator/mkdeepforge/block/UraniumOreBlock.java",
-          "src/main/resources/assets/mk_deepforge/blockstates/deespslate_uranium_ore.json",
-          "src/main/resources/assets/mk_deepforge/models/block/deespslate_uranium_ore.json"
+          "src/main/resources/assets/mk_deepforge/blockstates/uranium_ore.json",
+          "src/main/resources/assets/mk_deepforge/items/uranium_ore.json",
+          "src/main/resources/assets/mk_deepforge/models/block/uranium_ore.json",
+          "src/main/resources/data/mk_deepforge/worldgen/configured_feature/uranium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateUraniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mk_deepforge/worldgen/configured_feature/deepslate_uranium_ore.json",
+          "src/main/java/net/mcreator/mkdeepforge/block/DeepslateUraniumOreBlock.java",
+          "src/main/resources/assets/mk_deepforge/models/item/deepslate_uranium_ore.json",
+          "src/main/resources/assets/mk_deepforge/items/deepslate_uranium_ore.json",
+          "src/main/resources/assets/mk_deepforge/models/block/deepslate_uranium_ore.json",
+          "src/main/resources/data/mk_deepforge/worldgen/placed_feature/deepslate_uranium_ore.json",
+          "src/main/resources/assets/mk_deepforge/blockstates/deepslate_uranium_ore.json",
+          "src/main/resources/data/mk_deepforge/loot_table/blocks/deepslate_uranium_ore.json"
         ]
       }
     }
@@ -38,9 +57,11 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DeepslateUraniumOre",
       "~CUSTOM:UraniumOre"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DeepslateUraniumOre",
       "~CUSTOM:UraniumOre"
     ]
   },
@@ -48,7 +69,8 @@
   "language_map": {
     "en_us": {
       "item.mk_deepforge.uranium_ingot": "Uranium",
-      "item.mk_deepforge.deespslate_uranium_ore": "Uranium Ore"
+      "item.mk_deepforge.deepslate_uranium_ore": "Deepslate Uranium Ore",
+      "item.mk_deepforge.uranium_ore": "Deepslate Uranium Ore"
     }
   },
   "metadata": {

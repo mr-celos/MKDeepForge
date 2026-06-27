@@ -14,6 +14,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.mkdeepforge.block.UraniumOreBlock;
+import net.mcreator.mkdeepforge.block.DeepslateUraniumOreBlock;
 import net.mcreator.mkdeepforge.MkDeepforgeMod;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
@@ -23,7 +24,8 @@ import java.util.function.Predicate;
 
 public class MkDeepforgeModFeatures {
 	public static void load() {
-		register("deespslate_uranium_ore", new OreFeature(OreConfiguration.CODEC), UraniumOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("uranium_ore", new OreFeature(OreConfiguration.CODEC), UraniumOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("deepslate_uranium_ore", new OreFeature(OreConfiguration.CODEC), DeepslateUraniumOreBlock.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 	}
 
 	private static void register(String registryname, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration stage) {

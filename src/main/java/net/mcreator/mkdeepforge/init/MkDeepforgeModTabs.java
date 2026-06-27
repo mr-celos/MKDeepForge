@@ -13,7 +13,8 @@ public class MkDeepforgeModTabs {
 			tabData.accept(MkDeepforgeModItems.URANIUM_INGOT);
 		});
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register(tabData -> {
-			tabData.accept(MkDeepforgeModBlocks.DEESPSLATE_URANIUM_ORE.asItem());
+			tabData.accept(MkDeepforgeModBlocks.URANIUM_ORE.asItem());
+			tabData.accept(MkDeepforgeModBlocks.DEEPSLATE_URANIUM_ORE.asItem());
 		});
 	}
 }

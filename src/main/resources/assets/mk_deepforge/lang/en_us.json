@@ -1,4 +1,5 @@
 {
   "item.mk_deepforge.uranium_ingot": "Uranium",
-  "item.mk_deepforge.deespslate_uranium_ore": "Uranium Ore"
+  "item.mk_deepforge.deepslate_uranium_ore": "Deepslate Uranium Ore",
+  "item.mk_deepforge.uranium_ore": "Deepslate Uranium Ore"
 }

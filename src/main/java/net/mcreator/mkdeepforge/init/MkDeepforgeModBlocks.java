@@ -11,15 +11,18 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.mkdeepforge.block.UraniumOreBlock;
+import net.mcreator.mkdeepforge.block.DeepslateUraniumOreBlock;
 import net.mcreator.mkdeepforge.MkDeepforgeMod;
 
 import java.util.function.Function;
 
 public class MkDeepforgeModBlocks {
-	public static Block DEESPSLATE_URANIUM_ORE;
+	public static Block URANIUM_ORE;
+	public static Block DEEPSLATE_URANIUM_ORE;
 
 	public static void load() {
-		DEESPSLATE_URANIUM_ORE = register("deespslate_uranium_ore", UraniumOreBlock::new);
+		URANIUM_ORE = register("uranium_ore", UraniumOreBlock::new);
+		DEEPSLATE_URANIUM_ORE = register("deepslate_uranium_ore", DeepslateUraniumOreBlock::new);
 	}
 
 	// Start of user code block custom blocks

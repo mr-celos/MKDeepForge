@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "mk_deepforge:blocks/deespslate_uranium_ore",
+  "random_sequence": "mk_deepforge:blocks/deepslate_uranium_ore",
   "pools": [
     {
       "rolls": 1.0,

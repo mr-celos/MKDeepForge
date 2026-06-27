@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "mk_deepforge:deespslate_uranium_ore"
+    "mk_deepforge:uranium_ore",
+    "mk_deepforge:deepslate_uranium_ore"
   ]
 }
