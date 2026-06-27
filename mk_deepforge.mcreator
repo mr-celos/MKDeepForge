@@ -51,18 +51,6 @@
           "src/main/resources/data/mk_deepforge/loot_table/blocks/deepslate_uranium_ore.json"
         ]
       }
-    },
-    {
-      "name": "Noclip",
-      "type": "command",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "noclip",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mkdeepforge/command/NoclipCommand.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -87,7 +75,6 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/mkdeepforge/init/MkDeepforgeModCommands.java",
       "src/main/java/net/mcreator/mkdeepforge/init/MkDeepforgeModBlocks.java",
       "src/main/java/net/mcreator/mkdeepforge/init/MkDeepforgeModBlocksRenderers.java",
       "src/main/java/net/mcreator/mkdeepforge/mixin/RepairItemRecipeMixin.java",
